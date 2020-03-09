@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914048520389",
+    "firebase_url": "https://dignoskin-6ee40.firebaseio.com",
+    "project_id": "dignoskin-6ee40",
+    "storage_bucket": "dignoskin-6ee40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914048520389:android:a166cacbd4a76652e220ac",
+        "android_client_info": {
+          "package_name": "com.example.dignoskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914048520389-5c7p8gkdpui9um7p0u0863dv9op3vriv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dignoskin",
+            "certificate_hash": "ea44b606af3ddebc13429d58b0193cbae6e04f98"
+          }
+        },
+        {
+          "client_id": "914048520389-s0c0ha4tqgp6l8odqoamp2bkmej15i7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2pMdZqnZlJwo7a8dfBFDrWnfJvChRmZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914048520389-s0c0ha4tqgp6l8odqoamp2bkmej15i7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Login To Continue"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/signintxt"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:hint="Enter Email.."
+        android:background="@drawable/round"
+        android:layout_below="@id/signintxt"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mail"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password.."
+        android:background="@drawable/round"
+        android:layout_below="@id/mail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pass"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/round_green"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginbtn"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in with google"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/googleicon"
+        android:paddingLeft="20dp"
+        android:id="@+id/signInBtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to register"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/signInBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/regtxt"/>
+
+    <ImageView
+        android:id="@+id/key"
+        android:layout_width="189dp"
+        android:layout_height="156dp"
+        android:layout_below="@+id/signInBtn"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/girlwithkey" />
+
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/signInBtn"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="118dp"
+        android:src="@drawable/lock" />
+
+</RelativeLayout>

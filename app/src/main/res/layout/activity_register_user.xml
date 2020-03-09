@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter details to sign up"
+        android:textSize="44sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="80dp"
+        android:id="@+id/wel_txt1"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email..."
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/wel_txt1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:id="@+id/emailsignup"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password..."
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/emailsignup"
+        android:id="@+id/passsignup"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password again..."
+        android:padding="20dp"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/passsignup"
+        android:id="@+id/passsignupagain"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:layout_below="@id/passsignupagain"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#2ecc72"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signupbtn"/>
+
+</RelativeLayout>
